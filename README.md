@@ -27,11 +27,14 @@ This project requires a GPU for efficient execution.
     * *Note:* If T4 is unavailable (or if you are on the Free tier), select **any available GPU**. The code is compatible with all standard Colab GPUs.
     * *Warning:* Running on CPU is possible but will be significantly slower for the Deep Learning sections.
 
-#### **Step 3: Upload Trained Weights**
-To skip the multi-hour training process and jump straight to the evaluation/demo, you must upload the pre-trained model weights provided in this repository (under the `models/` folder).
+#### **Step 3: Download Trained Weights**
+To skip the multi-hour training process and jump straight to the evaluation/demo, you must download the pre-trained model weights.
 
-1.  In the Colab sidebar, click the **Folder icon** (Files).
-2.  Upload the following 4 files:
+**📥 [Download Models from Google Drive](#)** *(Insert your Google Drive Link Here)*
+
+1.  Download the `.pth` files from the link above.
+2.  In the Colab sidebar, click the **Folder icon** (Files).
+3.  Upload the following 4 files directly to the root content folder:
     * `best_model_tiny_frozen.pth`
     * `best_model_tiny_finetuned.pth`
     * `best_model_small_frozen.pth`
@@ -53,11 +56,6 @@ To skip the multi-hour training process and jump straight to the evaluation/demo
 
 ```text
 ├── EuroSAT_Model_Evaluation_Demo.ipynb  # Main Verification Suite (Run this)
-├── ConvNeXt.ipynb                       # (Reference) Original training script
-├── models/                              # Pre-trained weights (Upload to Colab)
-│   ├── best_model_tiny_frozen.pth
-│   ├── best_model_tiny_finetuned.pth
-│   ├── best_model_small_frozen.pth
-│   └── best_model_small_finetuned.pth
+├── ConvNeXt.ipynb                       # (Reference) Original training pipeline
 ├── reports/                             # Final PDF Report & Presentation
 └── README.md                            # You are here
