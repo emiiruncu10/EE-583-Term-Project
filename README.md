@@ -30,7 +30,7 @@ This project requires a GPU for efficient execution.
 #### **Step 3: Download Trained Weights**
 To skip the multi-hour training process and jump straight to the evaluation/demo, you must download the pre-trained model weights.
 
-**📥 [Download Models from Google Drive](#)** *(Insert your Google Drive Link Here)*
+**📥 [Download Models from Google Drive](#)** *([Insert your Google Drive Link Here](https://drive.google.com/drive/folders/1YRQxtmYs49uL1oQtXt5IOmUDrCA_FuqT?usp=sharing))*
 
 1.  Download the `.pth` files from the link above.
 2.  In the Colab sidebar, click the **Folder icon** (Files).
