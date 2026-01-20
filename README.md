@@ -53,7 +53,7 @@ To skip the multi-hour training process and jump straight to the evaluation/demo
 
 ```text
 ├── EuroSAT_Model_Evaluation_Demo.ipynb  # Main Verification Suite (Run this)
-├── ConvNeXt_Training.ipynb              # (Reference) Original training script
+├── ConvNeXt.ipynb                       # (Reference) Original training script
 ├── models/                              # Pre-trained weights (Upload to Colab)
 │   ├── best_model_tiny_frozen.pth
 │   ├── best_model_tiny_finetuned.pth
